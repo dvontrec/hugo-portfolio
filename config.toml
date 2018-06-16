@@ -21,9 +21,9 @@ enableRobotsTXT = true
 
 ## Site Settings
 [params]
-author = "Dvontre A Coleman"
+author = "Dvontre Coleman"
 intro = "Web Developer"
-description = "Freelance web developer located in Louisville kentucky. Ready to change the world one problem at a time"
+description = "Lets build something"
 authorimage = "selfie.jpg"
 dateformat = "Jan 2, 2006"
 
@@ -55,7 +55,7 @@ highlightjs = true
     name = "resume"
     identifier = "resume"
     weight = 200
-    url = "/resume/"
+    url = "/resume/show"
 [[menu.main]]
     name = "projects"
     identifier = "projects"

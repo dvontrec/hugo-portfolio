@@ -1,0 +1,76 @@
+{{ partial "header.html" . }}
+
+<style type="text/css">
+	.title{
+		text-align: center;
+	}
+	.container .resume-body{
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+	}
+
+	li p{
+		font-size: .8em;
+	}
+</style>
+	
+	<div class="title">
+		<h1>{{.Params.name}}</h1>
+		<h4>{{.Params.email}}</h4>
+		<h4><a href="{{.Params.github}}">Github</a></h4>
+		<!-- <h4><a>Download PDF</a></h4> -->
+	</div>
+	<div class="resume-body">
+		<h3>Languages/Libraries</h3>
+			<div style="display:flex;flex-wrap:wrap;justify-content:space-around;text-align:center;">
+				<p style="min-width:25%;">HTML5</p>
+				<p style="min-width:25%;">CSS</p>
+				<p style="min-width:25%;">JavaScript</p>
+				<p style="min-width:25%;">jQuery</p>
+				<p style="min-width:25%;">Node.js</p>
+				<p style="min-width:25%;">Express</p>
+				<p style="min-width:25%;">Mongoose</p>
+				<p style="min-width:25%;">MongoDB</p>
+				<p style="min-width:25%;">Unity</p>
+				<p style="min-width:25%;">C#</p>
+				<p style="min-width:25%;">D3</p>
+			</div>
+		<hr>
+		<h3>Projects</h3>
+			<ul style="list-style: none;"><a href="/projects/sprinkleofjeezy/">Sprinkle Of Jeezy</a>
+				<li><p style="font-size: .8em;">MEAN stack application That displays rap quotes randomly from a MongoDB database.</p></li>
+			</ul>
+			<ul style="list-style: none;"><a href="/projects/csscolorselector/">CSS Color Selector</a>
+				<li><p style="font-size: .8em;">Collabrotive Web application made with HTML, CSS, and vanilla JavaScript</p></li>
+			</ul>
+		<hr>
+		<h3>Education</h3>
+			<ul style="list-style:circle;"><h4>Code Louisville</h4>
+				<li>Full Stack JavaScript(Graduation date July 2018)</li>
+			</ul>
+		<hr>
+		<h3>Work Experience</h3>
+		<ul style="list-style:circle;"><h4>Kentucky Army National Guard (<i>June 2012 - June 2018</i>)</h4>
+			<h5>E5 25L</h5>
+			<li><p>Cleared for Secret information and granted access to Sensitive Compartmented
+			Information based on Single Scope Background Investigation completed on (28 July
+			2012)</p></li>
+			<li><p>Cross Trained to work with server stacks and SINCGAR radio systems</p></li>
+			<li><p>Lead Classes to train the unit on proper procedures to load encrypted and plain text radio frequencies</p></li>
+			<li><p>Accomplished many tasks critical to the success of the mission under extreme stress</p></li>
+			
+		</ul>
+		<br>
+		<ul style="list-style:circle;"><h4>Premier Packaging (<i>July 2017 - Present</i>)</h4>
+			<h5>Helpdesk Technician</h5>
+			<li><p>Managed user accounts in active directory for the company</p></li>
+			<li><p>Setup equipment for new hires based on job requirements</p></li>
+			<li><p>Trained new hires on the use of company equipment</p></li>
+			
+		</ul>
+	</div>	
+
+
+{{ partial "menu.html" . }}
+
+{{ partial "footer.html" . }}

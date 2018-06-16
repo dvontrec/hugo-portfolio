@@ -1,3 +1,63 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+## Basic Configuration
+
+baseurl = "" 
+builddrafts = true
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Dvontre Coleman"
+title = "Dvontre Coleman"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "" # Comment out to disable Disqus.
+googleAnalytics = ""
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Dvontre A Coleman"
+intro = "Web Developer"
+description = "Freelance web developer located in Louisville kentucky. Ready to change the world one problem at a time"
+authorimage = "selfie.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "dvontrec"
+linkedin = "dvontre-coleman-06650a146"
+twitter = "dvontrecoleman"
+email = "dvontrec@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© <script type='text/javascript'>var d = new Date();document.write(d.getFullYear());</script> Dvontre Coleman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+poweredby = true
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "resume"
+    identifier = "resume"
+    weight = 200
+    url = "/resume/"
+[[menu.main]]
+    name = "projects"
+    identifier = "projects"
+    weight = 300
+    url = "/projects/"

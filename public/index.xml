@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dvontre Coleman</title>
+    <link>/</link>
+    <description>Recent content on Dvontre Coleman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 15 Jun 2018 19:39:54 -0400</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resume</title>
+      <link>/resume/show/</link>
+      <pubDate>Fri, 15 Jun 2018 19:39:54 -0400</pubDate>
+      
+      <guid>/resume/show/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/about/</guid>
+      <description>.img-thumbnail{ padding: 0; } .title{ text-align: center; }   I am D&amp;rsquo;vontre Coleman, I am a freelance web developer located in Louisville kentucky. Ready to change the world one problem at a time</description>
+    </item>
+    
+    <item>
+      <title>Css Color Selector</title>
+      <link>/projects/csscolorselector/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/csscolorselector/</guid>
+      <description>This started as a way to prove to myself that I could make a website without the use of any libraries or frameworks. I planned on going to the pool with my friends, for memorial day, but wanted to accomplish something technical so that the day would not be wasted. In my work with D3 I learned to manipulate the DOM when a slider changed so I used the knowledge gained from that to manipulate the entire background of the body.</description>
+    </item>
+    
+    <item>
+      <title>Sprinkle of Jeezy</title>
+      <link>/projects/sprinkleofjeezy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/sprinkleofjeezy/</guid>
+      <description>I consider Sprinkle of Jeezy to be my baby. I came up with the idea when I first started programming, after seeing a similar app gain popularity on twitter, but at the time I had no knowledge of how to make it. After completing Colt Steele&#39;s Web Develeper Bootcamp course on Udemy, I knew enough to be dangerous. The application&#39;s home page uses an AJAX call to display randomly selected quotes stored in the backend database.</description>
+    </item>
+    
+  </channel>
+</rss>

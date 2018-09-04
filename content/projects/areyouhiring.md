@@ -1,11 +1,11 @@
 ---
-title: 'Are You Trying'
+title: 'Are You Hiring'
 draft: false
 type: 'project'
 description: 'A test site'
 image: '/img/jobs.png'
 languages: 'Python, Node.js, MySQL'
-github: 'https://github.com/dvontrec/CSS-color-selector'
+github: 'https://github.com/dvontrec/indeed-scraper'
 website: 'https://github.com/dvontrec/SQL-job-viewer'
 ---
 

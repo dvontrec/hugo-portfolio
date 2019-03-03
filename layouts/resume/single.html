@@ -1,98 +1,195 @@
 {{ partial "header.html" . }}
 
 <style type="text/css">
-	.title{
-		text-align: center;
-	}
-	.container .resume-body{
-		border-top: 1px solid black;
-		border-bottom: 1px solid black;
-	}
+  .title {
+    text-align: center;
+  }
+  .container .resume-body {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
 
-	li p{
-		font-size: .8em;
-	}
+  li p {
+    font-size: 0.8em;
+  }
 </style>
-	
-	<div class="title">
-		<h1>{{.Params.name}}</h1>
-		<h4><a href="{{.Params.github}}">Github</a></h4>
-		<!-- <h4><a>Download PDF</a></h4> -->
-	</div>
-	<div class="resume-body">
-		<h3>Languages/Libraries</h3>
-			<div style="display:flex;flex-wrap:wrap;justify-content:space-around;text-align:center;">
-				<p style="min-width:25%;">HTML5</p>
-				<p style="min-width:25%;">CSS</p>
-				<p style="min-width:25%;">JavaScript</p>
-				<p style="min-width:25%;">jQuery</p>
-				<p style="min-width:25%;">jQuery Mobile</p>
-				<p style="min-width:25%;">Node.js</p>
-				<p style="min-width:25%;">Express</p>
-				<p style="min-width:25%;">Mongoose</p>
-				<p style="min-width:25%;">MongoDB</p>
-				<p style="min-width:25%;">Unity</p>
-				<p style="min-width:25%;">C#</p>
-				<p style="min-width:25%;">D3</p>
-				<p style="min-width:25%;">React</p>
-				<p style="min-width:25%;">Redux</p>
-				<p style="min-width:25%;">Bootstrap</p>
-				<p style="min-width:25%;">Python</p>
-				<p style="min-width:25%;">SQL</p>
-				<p style="min-width:25%;">PHP</p>
-			</div>
-		<hr>
-		<h3>Projects</h3>
-			<ul style="list-style: none;"><a href="/projects/areyouhiring/">Are you Hiring</a>
-				<li><p style="font-size: .8em;">Full stack application using Node.js, MySQL db, and Python.</p></li>
-				<li><p style="font-size: .8em;">Python web scraper that pulls at least 110 entry level software jobs in Louisville, Ky using bs4, and writes the information to a SQL database.  Scraping is ran every 2 weeks</p></li>
-				<li><p style="font-size: .8em;">Node based web app that displays job postings and tracks if I have applied</p></li>
-				<li><p style="font-size: .8em;">Used as motivation.  The goal is to apply for 70% of the jobs in the 2 week period between scrapes until hired.</p></li>
-			</ul>
-			<ul style="list-style: none;"><a href="/projects/sprinkleofjeezy/">Sprinkle Of Jeezy</a>
-				<li><p style="font-size: .8em;">ME_N stack application That displays rap quotes randomly from a MongoDB database.</p></li>
-				<li><p style="font-size: .8em;">integrated with Alexa smart speaker and spotify for a unique user experience</p></li>
-			</ul>
-			<ul style="list-style: none;"><a href="/projects/csscolorselector/">CSS Color Selector</a>
-				<li><p style="font-size: .8em;">Collaborative Web application made with HTML, CSS, and vanilla JavaScript</p></li>
-			</ul>
-		<hr>
-		<h3>Education</h3>
-			<ul style="list-style:circle;"><h4>Code Louisville</h4>
-				<li>Full Stack JavaScript(Graduation date July 2018)</li>
-			</ul>
-		<hr>
-		<h3>Volunteer work</h3>
-			<ul style="list-style: circle;"><h4>Code Louisville (<i>September 2018 - Present</i>)</h4>
-				<li><p>Front End Mentor</p></li>
-			</ul>
-			<ul style="list-style: circle;"><h4>LVL1 Hackerspace(<i>February 2018 - Present</i>)</h4>
-				<li><p>Help visiters and members with programming problems</p></li>
-				<li><p>Teach visiters new to programming the basics to help them get a grasp of the conecpts faster</p></li>
-			</ul>
-		<hr>
-		<h3>Work Experience</h3>
-		<ul style="list-style:circle;"><h4>Kentucky Army National Guard (<i>June 2012 - June 2018</i>)</h4>
-			<h5>E5 25L</h5>
-			<li><p>Cleared for Secret information and granted access to Sensitive Compartmented
-			Information based on Single Scope Background Investigation completed on (28 July
-			2012)</p></li>
-			<li><p>Cross Trained to work with server stacks and SINCGAR radio systems</p></li>
-			<li><p>Lead Classes to train the unit on proper procedures to load encrypted and plain text radio frequencies</p></li>
-			<li><p>Accomplished many tasks critical to the success of the mission under extreme stress</p></li>
-			
-		</ul>
-		<br>
-		<ul style="list-style:circle;"><h4>Premier Packaging (<i>July 2017 - Present</i>)</h4>
-			<h5>Helpdesk Technician</h5>
-			<li><p>Managed user accounts in active directory for the company</p></li>
-			<li><p>Setup equipment for new hires based on job requirements</p></li>
-			<li><p>Trained new hires on the use of company equipment</p></li>
-			<li><p>Helping development team to recreate IMS portal</p></li>
-			
-		</ul>
-	</div>	
 
+<div class="title">
+  <h1>{{.Params.name}}</h1>
+  <h4><a href="{{.Params.github}}">Github</a></h4>
+  <!-- <h4><a>Download PDF</a></h4> -->
+</div>
+<div class="resume-body">
+  <h3>Languages/Libraries</h3>
+  <div
+    style="display:flex;flex-wrap:wrap;justify-content:space-around;text-align:center;"
+  >
+    <p style="min-width:25%;">HTML5</p>
+    <p style="min-width:25%;">CSS</p>
+    <p style="min-width:25%;">JavaScript</p>
+    <p style="min-width:25%;">jQuery</p>
+    <p style="min-width:25%;">Node.js</p>
+    <p style="min-width:25%;">Express</p>
+    <p style="min-width:25%;">MongoDB</p>
+    <p style="min-width:25%;">C#</p>
+    <p style="min-width:25%;">React</p>
+    <p style="min-width:25%;">Redux</p>
+    <p style="min-width:25%;">Bootstrap</p>
+    <p style="min-width:25%;">Python</p>
+    <p style="min-width:25%;">SQL</p>
+    <p style="min-width:25%;">PHP</p>
+    <p style="min-width:25%;">Swift</p>
+    <p style="min-width:25%;">Webpack</p>
+    <p style="min-width:25%;">Golang</p>
+    <p style="min-width:25%;">Docker</p>
+    <p style="min-width:25%;">CI</p>
+    <p style="min-width:25%;">AWS</p>
+  </div>
+  <hr />
+  <h3>Projects</h3>
+  <ul style="list-style: none;">
+    <a href="/projects/csscolorcreator/">CSS Color Creator</a>
+    <li>
+      <p style="font-size: .8em;">
+        Fullstack Web Application allowing users to rename all rgb colors
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        React front end using redux to manage state
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        Golang backend API that serves JSON data
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        MYSQL database to store colors, favorites, and user data
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        Dockerized to allow for easy collaboration across operating systems
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        CI managed by travis, pull requests are tested and deployed to AWS after
+        merging with master
+      </p>
+    </li>
+  </ul>
+  <ul style="list-style: none;">
+    <a href="/projects/areyouhiring/">Are you Hiring</a>
+    <li>
+      <p style="font-size: .8em;">
+        Full stack application using Node.js, MySQL db, and Python.
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        Python web scraper that pulls at least 110 entry level software jobs in
+        Louisville, Ky using bs4, and writes the information to a SQL database.
+        Scraping is ran every 2 weeks
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        Node based web app that displays job postings and tracks if I have
+        applied
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        Used as motivation. The goal is to apply for 70% of the jobs in the 2
+        week period between scrapes until hired.
+      </p>
+    </li>
+  </ul>
+  <ul style="list-style: none;">
+    <a href="/projects/sprinkleofjeezy/">Sprinkle Of Jeezy</a>
+    <li>
+      <p style="font-size: .8em;">
+        ME_N stack application That displays rap quotes randomly from a MongoDB
+        database.
+      </p>
+    </li>
+    <li>
+      <p style="font-size: .8em;">
+        integrated with Alexa smart speaker and spotify for a unique user
+        experience
+      </p>
+    </li>
+  </ul>
+
+  <hr />
+  <h3>Education</h3>
+  <ul style="list-style:circle;">
+    <h4>Code Louisville</h4>
+    <li>Full Stack JavaScript(Graduation date July 2018)</li>
+  </ul>
+  <hr />
+  <h3>Volunteer work</h3>
+  <ul style="list-style: circle;">
+    <h4>Code Louisville (<i>September 2018 - Present</i>)</h4>
+    <li><p>Front End / JavaScript with React Mentor</p></li>
+  </ul>
+  <ul style="list-style: circle;">
+    <h4>LVL1 Hackerspace(<i>February 2018 - Present</i>)</h4>
+    <li><p>Help visiters and members with programming problems</p></li>
+    <li>
+      <p>
+        Teach visiters new to programming the basics to help them get a grasp of
+        the conecpts faster
+      </p>
+    </li>
+  </ul>
+  <hr />
+	<h3>Work Experience</h3>
+	<ul style="list-style:circle;">
+		<h4>Premier Packaging (<i>July 2017 - Present</i>)</h4>
+		<h5>Web Application Developer(<i>September 2018 - Present</i>)</h5>
+    <li><p>Overseeing new projects needed to help business run as smooth as possible</p></li>
+    <li><p>Designing and developing web apps that range from automation to web portals used to report issues.</p></li>
+    <li><p>Developed IMS system that is currently being used to track issues from customers and internally</p></li>
+		</br>
+    <h5>Helpdesk Technician(<i>July 2017 - September 2018</i>)</h5>
+    <li><p>Managed user accounts in active directory for the company</p></li>
+    <li><p>Setup equipment for new hires based on job requirements</p></li>
+    <li><p>Trained new hires on the use of company equipment</p></li>
+    <li><p>Helping development team to recreate IMS portal</p></li>
+	</ul>
+	</br>
+  <ul style="list-style:circle;">
+    <h4>Kentucky Army National Guard (<i>June 2012 - June 2018</i>)</h4>
+    <h5>E5 25L</h5>
+    <li>
+      <p>
+        Cleared for Secret information and granted access to Sensitive
+        Compartmented Information based on Single Scope Background Investigation
+        completed on (28 July 2012)
+      </p>
+    </li>
+    <li>
+      <p>Cross Trained to work with server stacks and SINCGAR radio systems</p>
+    </li>
+    <li>
+      <p>
+        Lead Classes to train the unit on proper procedures to load encrypted
+        and plain text radio frequencies
+      </p>
+    </li>
+    <li>
+      <p>
+        Accomplished many tasks critical to the success of the mission under
+        extreme stress
+      </p>
+    </li>
+  </ul>
+  <br />
+</div>
 
 {{ partial "menu.html" . }}
 

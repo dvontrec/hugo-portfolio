@@ -1,0 +1,15 @@
+[submodule "hugo-theme-yinyang"]
+	path = hugo-theme-yinyang
+	url = https://github.com/joway/hugo-theme-yinyang.git
+[submodule "github-style"]
+	path = github-style
+	url = https://github.com/MeiK2333/github-style.git
+[submodule "erblog"]
+	path = erblog
+	url = https://github.com/ertuil/erblog.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "hugo-theme-prav"]
+	path = hugo-theme-prav
+	url = https://github.com/pravin/hugo-theme-prav.git

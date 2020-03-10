@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Dvontre Coleman"
 theme = "prav"
 
+# Set up where page will be published
+publishDir = "./docs"
+
 pygmentsCodeFences = "true"
 pygmentsStyle = "perldoc"
 

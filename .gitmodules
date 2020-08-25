@@ -13,3 +13,7 @@
 [submodule "hugo-theme-prav"]
 	path = hugo-theme-prav
 	url = https://github.com/pravin/hugo-theme-prav.git
+[submodule "docs"]
+	path = docs
+	url = git@github.com:dvontrec/dvontrec.github.io.git
+	branch = master

@@ -4,8 +4,6 @@ draft = true
 title = "Faults Happen"
 
 +++
-# Dvontre A Coleman
+# Faults Happen
 
-My name is Dvontre A Coleman.  I am a software Developer based in Louisville, Kentucky.  I have been playing around with different coding languages for the past  3 years, and am currently a developer for a company Called El Toro IP Targeting, on a team that writes primarily in Go.
-
-The purpose of this site will to be share my thoughts and things that i am learning as a professional Software Developer. I want to be able to write articles that developers of all levels can read and learn / confirm their understanding of topics. I will sprinkle posts on other topics every once in a while to give an inside look on my life outside of software.
+As a software developer we must accept the fact that we can not plan for every possible way our software can mess up.  We can make sure that messing up doesn't lose us money. 
